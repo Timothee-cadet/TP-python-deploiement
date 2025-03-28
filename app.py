@@ -276,6 +276,7 @@ def update_graphs(selected_location):
 
 # ================ Run server ================== #
 if __name__ == '__main__':
-    app.run_serveur(debug=True, port=8073, jupyter_mode="external")
+    app.run_server(debug=True, port=8073)
+
 
 
